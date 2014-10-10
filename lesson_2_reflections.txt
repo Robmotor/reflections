@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+	-the system creates the files needed to make the repository, it is 
+	important to create all this files in order to use the control version.
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+	-The staging area is the worskspace used on git, the working 
+	directory is the file direction of the repository and the repository
+	is the whole concept, they make much easier look of the handling of
+	this control versions.
