@@ -1,9 +1,39 @@
 What happens when you initialize a repository? Why do you need to do it?
 	-the system creates the files needed to make the repository, it is 
-	important to create all this files in order to use the control version.
+	important to create all this files in order to use the control
+	version.
 How is the staging area different from the working directory and the 
 repository? What value do you think it offers?
 	-The staging area is the worskspace used on git, the working 
 	directory is the file direction of the repository and the repository
 	is the whole concept, they make much easier look of the handling of
 	this control versions.
+How can you use the staging area to make sure you have one commit per
+logical change?
+	-you can use the diff --staged the check if there are more than one
+	logical change per commit.
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+	-When you try something different and don't want to release it yet,
+	you can start making those projects and continue supporting and
+	fixing your main code.
+How do the diagrams help you visualize the branch structure?
+	-The diagramas gives a better idea of where do am I in the branches
+	you don't need to see by code any time you want to know how
+	branches are working, you just need to visualize the diagram.
+What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+	-The result is only one branch make of two, in which takes
+	information of previous commits and make new files that have the 
+	right information. The diagram help us to see where wher are, or 
+	where we need to go back in order to find the section tha would help
+	us.
+What are the pros and cons of Git’s automatic merging vs. always doing
+merges manually?
+	-The automatic merging can makes things a lot easier when we are
+	doing this action, for the examples it seems to be a good way to
+	cambine different parts into a functional project, it means that
+	anyone using git can do it without much effort. The manually merging
+	seems to be tedious and really exhausting, it is good when points 
+	the problems, but you must be careful when fixing the code merging.
+	
