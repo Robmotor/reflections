@@ -1,3 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
-  when the work cannot be modified in only one computerm it means that you have more 
+  -when the work cannot be modified in only one computerm it means that you have more 
   than one work stations.
+Why might you want to always pull changes manually rather than having Git automatically
+stay up-to-date with your remote repository?
+  -As you are working on experimental changes or unsignificant changes, or even some
+  bugs on what's new you don't want them to be online.
