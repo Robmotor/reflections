@@ -5,3 +5,11 @@ Why might you want to always pull changes manually rather than having Git automa
 stay up-to-date with your remote repository?
   -As you are working on experimental changes or unsignificant changes, or even some
   bugs on what's new you don't want them to be online.
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+	Forks are similar to clones, you basicly clone a project with both, but
+	when you fork a project, you make a copy onto your GitHub account, when
+	you clone you do from anything in GitHub onto your computer. And when you
+	create a branch you make a version of your projecto to modify something,
+	it means you don't work on the master branch in order to maintain it as
+	the principal one.
